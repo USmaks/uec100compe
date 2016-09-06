@@ -19,6 +19,7 @@
 
 		<!-- Code syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<link rel="stylesheet" href="css/theme/league.css" id="theme">
 
 		<script src="https://use.fontawesome.com/c6e621a40e.js"></script>
 		<style type="text/css">
@@ -69,9 +70,9 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
 				</section>
 
 				<section>
-					<h2>これは何?</h2>
+					<h2>これは何？</h2>
 					<p>
-					2018年に100周年を迎える電気通信大学の学生を対象に、<em>立ち上げたいプロジェクトがあるアイデアマン</em>や、<em>身につけたスキルを活用してみたいクリエイティブマン</em>を募集し、プロジェクト間でコンペティション(競争)していただく企画です。
+					2018年に100周年を迎える電気通信大学の学生を対象に、<em>立ち上げたいプロジェクトがあるアイデアマン</em>や、<em>身につけたスキルを活用してみたいクリエイティブマン</em>を募集し、プロジェクト間でコンペティション(競争)していただく場を提供する企画です。
 					</p>
 				</section>
 
@@ -81,6 +82,11 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
 						当運営局並びに当企画の設立の趣意は、100周年を境に電気通信大学における学生活動のパラダイムシフトを誘引し、100周年に対する学生の意識を高めようとするものです。
 						</p>
 						<br>
+				</section>
+				<section>
+					<h2>運営局はどんな人たち？</h2>
+					<p>過去にプロジェクトを立ち上げて活動し、発表という成果において優秀な評価を頂いた電気通信大学の在学生が運営しています。</p>
+					<p>また、定期開催の「学長と学生の意見交換会」に参加しており、同大学に認知されている団体です。</p>
 				</section>
 				<!-- Example of nested vertical slides -->
 
@@ -95,8 +101,7 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
 						<li>プロジェクト広報の代行</li>
 						<li>その他プロジェクトの進捗に必要なもの</li>
 					</ul>
-					<br>
-					をサービスし支援いたします。
+					<p>をサービスし支援いたします。</p>
 				</section>
 				<section>
 					<h2>何を得られるの？</h2>
@@ -118,9 +123,12 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
 							<li>電気通信大学生</li>
 							<li>電気通信大学生を主体とするチーム</li>
 						</ul>
+						<p>
+						学外の方も同大学生を主体とするチームのメンバーであれば参加可能です。
+						</p>
 					</section>
 					<section>
-						<h2>対象(テーマ)は？</h2>
+						<h3>対象(テーマ)は？</h3>
 						<p>公序良俗に反しないものであれば対象となります。
 						<br>
 						当運営局によるテーマの指定はしません。
@@ -133,8 +141,63 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
 						<!-- 	<img width="178" height="238" data&#45;src="https://s3.amazonaws.com/hakim&#45;static/reveal&#45;js/arrow.png" alt="Up arrow" style="transform: rotate(180deg); &#45;webkit&#45;transform: rotate(180deg);"> -->
 						<!-- </a> -->
 					</section>
+					<section>
+						<h3>活動期間は？</h3>
+						<p>
+						募集を行う調布祭後に活動を開始し、次年度の調布祭にて最終発表を行っていただきますため、活動期間は最低でも<b>一年</b><br>となります。
+						</p>
+					</section>
+					<section>
+						<h3>募集期間は？</h3>
+						<p>
+						アイデアマンやクリエイティブマンの募集期間は、工事中
+						</p>
+					</section>
+					<section>
+						<h3>参加方法は？</h3>
+						<p>
+						私たちにメールで応募を頂き、審査に合格てからの参加となっております。
+						</p>
+						<p>
+						応募の際に本文に、以下に記載する内容のご記入をお願いいたします。
+						</p>
+						<table>
+							<thead>
+								<tr>
+									<th>記入項目</th>
+									<th>備考</th>
+									<!-- <th>Quantity</th> -->
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>プロジェクト名</td>
+									<td>仮設定ならば頭に(仮)を。</td>
+									<!-- <td>7</td> -->
+								</tr>
+								<tr>
+									<td>プロジェクトの概要</td>
+									<td>500文字以内で。</td>
+									<!-- <td>18</td> -->
+								</tr>
+								<tr>
+									<td>応募するメンバーの数と名前</td>
+									<td>１人から応募可能です。</td>
+									<!-- <td>2</td> -->
+								</tr>
+							</tbody>
+						</table>
+						<p>
+						ここにメールアドレスへのリンク
+						</p>
+
+					</section>
 				</section>
 
+				<section>
+					<h2>審査基準は？</h2>
+					<p>審査基準は、工事中</p>
+				</section>
 				<section>
 					<h3>みなさんの挑戦をお待ちしております。</h3>
 					<p>
@@ -446,8 +509,10 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
 Reveal.initialize({
 	controls: true,
 	progress: true,
-	history: true,
+	history: false,
 	center: true,
+	autoSlide: 10000,
+	mouseWheel: true,
 
 	transition: 'slide', // none/fade/slide/convex/concave/zoom
 

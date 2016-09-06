@@ -17,6 +17,39 @@
 	padding-top: 14.5px;
 	padding-botton: 14.5px;
 }
+/* Sticky footer styles
+   -------------------------------------------------- */
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+	/* Margin bottom by footer height */
+	margin-bottom: 60px;
+}
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 60px;
+	background-color: #f5f5f5;
+	text-align: center;
+}
+
+
+/* Custom page CSS
+   -------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+/* .container { */
+/*   width: auto; */
+/*   max-width: 680px; */
+/*   padding: 0 15px; */
+/* } */
+.container .text-muted {
+	margin: 20px 0;
+}
 	</style>
 </head>
 <body>
@@ -35,10 +68,10 @@
 	</nav>
 	<div class="container">
 		<div class="row" style="margin-top: 50px;">
-				<h1 class="text-center">UEC 100th記念コンペティション</h1>
-				<br>
+			<h1 class="text-center">UEC 100th記念コンペティション</h1>
+			<br>
 			<div class="col-md-6 col-md-offset-1">
-			<!-- <div class="col&#45;xs&#45;12 col&#45;md&#45;6"> -->
+				<!-- <div class="col&#45;xs&#45;12 col&#45;md&#45;6"> -->
 				<!-- <a href="presen&#45;js/index.html" target="_blank">Link to our presentation</a> -->
 				<div class="well">
 					<h3><i class="fa fa-newspaper-o" aria-hidden="true"></i> News</h3>
@@ -47,14 +80,28 @@
 						<li>※現在工事中※<span class="label label-primary">New</span></li>
 					</ul>
 				</div>
+				</div>
+				<div class="col-md-4">
+					<div class="well">
+						<h3><i class="fa fa-info-circle" aria-hidden="true"></i> Info</h3>
+						<hr>
+						<h4><i class="fa fa-users" aria-hidden="true"></i> About について</h4>
+					</div>
+				</div>
 			</div>
-			<div class="col-md-4">
-				<div class="well">
-					<h3><i class="fa fa-info-circle" aria-hidden="true"></i> Info</h3>
-					<hr>
+			<div class="row">
+				<div class="col-md-6 col-md-offset-1">
+					<div class="well">
+						<h3><i class="fa fa-list" aria-hidden="true"></i> Projects</h3>
+						<hr>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+		<footer class="footer">
+			<div class="container">
+				&copy; 2016 UEC100thcmp coworkers
+			</div>
+		</footer>
 </body>
 </html>
